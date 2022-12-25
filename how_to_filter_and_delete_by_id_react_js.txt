@@ -1,0 +1,33 @@
+// import React from "react";
+
+// import { useState } from "react";
+
+// export default function App() {
+//   const [data, setdata] = useState([
+
+//     { id: "1", name: "bob", age: "22", city: "pue", state: "manali" },
+//     { id: "2", name: "cat", age: "20", city: "thane", state: "jaipur" },
+//     { id: "3", name: "jojo", age: "18", city: "daund", state: "J&k" },
+//     { id: "4", name: "pop", age: "15", city: "satara", state: "maharashtra" },
+//     { id: "5", name: "tom", age: "25", city: "goa", state: "delhi" }
+//   ]);
+
+//    const handledelete =(id)=>{
+//       const final=data.filter(d=>d.id!==id)
+//       setdata(final);
+//    }
+//   return (
+//     <div className="App">
+
+//     {data.map(data=>
+//        <div>
+//        <h1> {data.id}{"   "}{data.name}<button onClick={()=>handledelete(data.id)}>delete</button></h1>
+      
+//        </div>)}
+
+     
+
+//     </div>
+//   );
+// }
+console.log('hi akshay')
